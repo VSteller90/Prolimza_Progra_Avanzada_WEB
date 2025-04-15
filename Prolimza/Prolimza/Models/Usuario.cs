@@ -7,6 +7,6 @@ namespace Prolimza.Models
         public string Correo { get; set; }
         public string ContrasenaEncriptada { get; set; }
         public int IdRol { get; set; }
-        public Rol Rol { get; set; }
+        public Rol? Rol { get; set; }
     }
 }

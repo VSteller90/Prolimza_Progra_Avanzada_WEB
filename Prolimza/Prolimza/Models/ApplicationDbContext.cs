@@ -40,7 +40,11 @@ namespace Prolimza.Models
             modelBuilder.Entity<MateriaPrima>().HasKey(mp => mp.IdMateriaPrima);
             modelBuilder.Entity<Producto>().HasKey(p => p.IdProducto);
             modelBuilder.Entity<Rol>().HasKey(r => r.IdRol);
+
+            modelBuilder.Entity<Usuario>().ToTable("usuario");
+            // Asegúrate de que la tabla se llama 'usuario' en la base de datos
             modelBuilder.Entity<Usuario>().HasKey(u => u.IdUsuario);
+
             modelBuilder.Entity<Auditoria>().HasKey(a => a.IdAuditoria);
             modelBuilder.Entity<Receta>().HasKey(r => r.IdReceta);
             modelBuilder.Entity<Compra>().HasKey(c => c.IdCompra);
