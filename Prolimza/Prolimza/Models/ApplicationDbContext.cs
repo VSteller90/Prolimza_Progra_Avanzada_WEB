@@ -34,30 +34,63 @@ namespace Prolimza.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Provincia>().HasKey(p => p.IdProvincia);
-            modelBuilder.Entity<Canton>().HasKey(c => c.IdCanton);
-            modelBuilder.Entity<Distrito>().HasKey(d => d.IdDistrito);
-            modelBuilder.Entity<Bodega>().HasKey(b => b.IdBodega);
-            modelBuilder.Entity<MateriaPrima>().HasKey(mp => mp.IdMateriaPrima);
-            modelBuilder.Entity<Producto>().HasKey(p => p.IdProducto);
-            modelBuilder.Entity<Rol>().HasKey(r => r.IdRol);
+            modelBuilder.Entity<Provincia>().ToTable("provincia");
 
-            modelBuilder.Entity<Usuario>().ToTable("usuario");
-            // Asegúrate de que la tabla se llama 'usuario' en la base de datos
+            modelBuilder.Entity<Canton>().HasKey(c => c.IdCanton);
+            modelBuilder.Entity<Canton>().ToTable("canton");
+
+            modelBuilder.Entity<Distrito>().HasKey(d => d.IdDistrito);
+            modelBuilder.Entity<Distrito>().ToTable("distrito");
+
+            modelBuilder.Entity<Bodega>().HasKey(b => b.IdBodega);
+            modelBuilder.Entity<Bodega>().ToTable("bodega");
+
+
+            modelBuilder.Entity<MateriaPrima>().HasKey(mp => mp.IdMateriaPrima);
+            modelBuilder.Entity<MateriaPrima>().ToTable("materiaPrima");
+
+            modelBuilder.Entity<Producto>().HasKey(p => p.IdProducto);
+            modelBuilder.Entity<Producto>().ToTable("producto");
+
+            modelBuilder.Entity<Rol>().HasKey(r => r.IdRol);
+            modelBuilder.Entity<Rol>().ToTable("roles");
+
             modelBuilder.Entity<Usuario>().HasKey(u => u.IdUsuario);
+            modelBuilder.Entity<Usuario>().ToTable("usuario");
 
             modelBuilder.Entity<Auditoria>().HasKey(a => a.IdAuditoria);
+            modelBuilder.Entity<Auditoria>().ToTable("auditoria");
+
             modelBuilder.Entity<Receta>().HasKey(r => r.IdReceta);
+            modelBuilder.Entity<Receta>().ToTable("receta");
+
             modelBuilder.Entity<Compra>().HasKey(c => c.IdCompra);
+            modelBuilder.Entity<Compra>().ToTable("compra");
+
             modelBuilder.Entity<Venta>().HasKey(v => v.IdVenta);
+            modelBuilder.Entity<Venta>().ToTable("venta");
+
             modelBuilder.Entity<EstadoVenta>().HasKey(ev => ev.IdEstadoVenta);
+            modelBuilder.Entity<EstadoVenta>().ToTable("estadoVenta");
+
             modelBuilder.Entity<HistorialEstadoVenta>().HasKey(he => he.IdHistorialEstadoVenta);
+            modelBuilder.Entity<HistorialEstadoVenta>().ToTable("historialEstadoVenta");
+
 
             modelBuilder.Entity<MateriaReceta>().HasKey(mr => new { mr.IdReceta, mr.IdMateriaPrima });
+            modelBuilder.Entity<MateriaReceta>().ToTable("materiaReceta");
+
+
             modelBuilder.Entity<DetalleCompraProducto>().HasKey(dcp => new { dcp.IdCompra, dcp.IdProducto });
+            modelBuilder.Entity<DetalleCompraProducto>().ToTable("detalleCompraProducto");
+
             modelBuilder.Entity<DetalleCompraMateriaPrima>().HasKey(dcm => new { dcm.IdCompra, dcm.IdMateriaPrima });
+            modelBuilder.Entity<DetalleCompraMateriaPrima>().ToTable("detalleCompraMateriaPrima");
+
             modelBuilder.Entity<DetalleVenta>().HasKey(dv => new { dv.IdVenta, dv.IdProducto });
-            
-            modelBuilder.Entity<Venta>().ToTable("venta"); // Asegura el nombre correcto
+            modelBuilder.Entity<DetalleVenta>().ToTable("detalleVenta");
+
+
 
             modelBuilder.Entity<Canton>()
                 .HasOne(c => c.Provincia)

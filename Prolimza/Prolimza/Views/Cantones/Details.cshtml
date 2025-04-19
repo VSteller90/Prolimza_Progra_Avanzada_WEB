@@ -24,7 +24,11 @@
         </dd>
     </dl>
 </div>
+
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdCanton">Edit</a> |
+    @if (!User.IsInRole("Lector"))
+    {
+        <a asp-action="Edit" asp-route-id="@Model?.IdCanton">Editar</a>
+    }
     <a asp-action="Index">Back to List</a>
 </div>

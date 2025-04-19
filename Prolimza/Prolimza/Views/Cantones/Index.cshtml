@@ -6,9 +6,12 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+@if (!User.IsInRole("Lector"))
+{
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Crear nuevo</a>
+    </p>
+}
 <table class="table">
     <thead>
         <tr>
@@ -22,18 +25,21 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Provincia.IdProvincia)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdCanton">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdCanton">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdCanton">Delete</a>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Provincia.IdProvincia)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.IdCanton">Detalles</a> 
+                    @if (!User.IsInRole("Lector"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.IdCanton">Editar</a> 
+                        <a asp-action="Delete" asp-route-id="@item.IdCanton">Eliminar</a>
+                    }
             </td>
         </tr>
 }

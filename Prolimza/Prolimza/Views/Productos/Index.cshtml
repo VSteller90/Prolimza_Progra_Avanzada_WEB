@@ -6,9 +6,12 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+@if (!User.IsInRole("Lector"))
+{
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Crear nuevo</a>
+    </p>
+}
 <table class="table">
     <thead>
         <tr>
@@ -34,30 +37,34 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.NombreProducto)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Sku)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cantidad)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FechaCaducidad)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Bodega.IdBodega)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdProducto">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdProducto">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdProducto">Delete</a>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NombreProducto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sku)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cantidad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaCaducidad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Bodega.IdBodega)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.IdProducto">Detalles</a>
+                    @if (!User.IsInRole("Lector"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.IdProducto">Editar</a> 
+                        <a asp-action="Delete" asp-route-id="@item.IdProducto">Eliminar</a>
+                    }
+
             </td>
         </tr>
 }
