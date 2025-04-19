@@ -54,6 +54,7 @@ namespace Prolimza.Models
             modelBuilder.Entity<DetalleVenta>().HasKey(dv => new { dv.IdVenta, dv.IdProducto });
             
             modelBuilder.Entity<Venta>().ToTable("venta"); // Asegura el nombre correcto
+            modelBuilder.Entity<Usuario>().ToTable("usuario"); // Asegura el nombre correcto
 
             modelBuilder.Entity<Canton>()
                 .HasOne(c => c.Provincia)
