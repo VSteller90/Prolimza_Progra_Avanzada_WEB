@@ -817,3 +817,6 @@ C:\Users\danii\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\o
 C:\Users\danii\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\obj\Debug\net8.0\Prolimza.genruntimeconfig.cache
 C:\Users\danii\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\obj\Debug\net8.0\ref\Prolimza.dll
 C:\Users\danii\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\danii\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\danii\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\danii\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\obj\Debug\net8.0\Prolimza.MvcApplicationPartsAssemblyInfo.cs

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|c:\\users\\danii\\documents\\github\\prolimza_progra_avanzada_web\\prolimza\\prolimza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|solutionrelative:prolimza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|c:\\users\\danii\\documents\\github\\prolimza_progra_avanzada_web\\prolimza\\prolimza\\prolimza.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|solutionrelative:prolimza\\prolimza.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|c:\\users\\danii\\documents\\github\\prolimza_progra_avanzada_web\\prolimza\\prolimza\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|solutionrelative:prolimza\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|c:\\users\\danii\\documents\\github\\prolimza_progra_avanzada_web\\prolimza\\prolimza\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|solutionrelative:prolimza\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -215,10 +227,6 @@
       "RelativeMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|solutionrelative:prolimza\\models\\provincia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|c:\\users\\danii\\documents\\github\\prolimza_progra_avanzada_web\\prolimza\\prolimza\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|solutionrelative:prolimza\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|c:\\users\\danii\\documents\\github\\prolimza_progra_avanzada_web\\prolimza\\prolimza\\models\\materiareceta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|solutionrelative:prolimza\\models\\materiareceta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -255,10 +263,6 @@
       "RelativeMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|solutionrelative:prolimza\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|c:\\users\\danii\\documents\\github\\prolimza_progra_avanzada_web\\prolimza\\prolimza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|solutionrelative:prolimza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|c:\\users\\danii\\documents\\github\\prolimza_progra_avanzada_web\\prolimza\\prolimza\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|solutionrelative:prolimza\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -281,10 +285,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|c:\\users\\danii\\documents\\github\\prolimza_progra_avanzada_web\\prolimza\\prolimza\\helpers\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|solutionrelative:prolimza\\helpers\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|c:\\users\\danii\\documents\\github\\prolimza_progra_avanzada_web\\prolimza\\prolimza\\prolimza.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|solutionrelative:prolimza\\prolimza.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C983E7B5-5490-488B-953B-5E48FA0FDBBA}|Prolimza\\Prolimza.csproj|c:\\users\\danii\\documents\\github\\prolimza_progra_avanzada_web\\prolimza\\prolimza\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -366,7 +366,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 214,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -406,7 +406,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Productos\\Details.cshtml",
+              "RelativeDocumentMoniker": "Prolimza\\Views\\Productos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Productos\\Details.cshtml",
+              "RelativeToolTip": "Prolimza\\Views\\Productos\\Details.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAIBJwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T22:07:24.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\MateriaRecetas\\Details.cshtml",
+              "RelativeDocumentMoniker": "Prolimza\\Views\\MateriaRecetas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\MateriaRecetas\\Details.cshtml",
+              "RelativeToolTip": "Prolimza\\Views\\MateriaRecetas\\Details.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAIBJwBkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T22:05:15.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Roles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Prolimza\\Views\\Roles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Roles\\Index.cshtml",
+              "RelativeToolTip": "Prolimza\\Views\\Roles\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAIBJwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T20:55:40.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Prolimza\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Prolimza\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIBJwBwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:36:51.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Program.cs",
+              "RelativeDocumentMoniker": "Prolimza\\Program.cs",
+              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Program.cs",
+              "RelativeToolTip": "Prolimza\\Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T01:13:41.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Prolimza.csproj",
+              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Prolimza.csproj",
+              "RelativeDocumentMoniker": "Prolimza\\Prolimza.csproj",
+              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Prolimza.csproj",
+              "RelativeToolTip": "Prolimza\\Prolimza.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-09T00:32:03.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Provincias\\Details.cshtml",
+              "RelativeDocumentMoniker": "Prolimza\\Views\\Provincias\\Details.cshtml",
+              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Provincias\\Details.cshtml",
+              "RelativeToolTip": "Prolimza\\Views\\Provincias\\Details.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAIBJwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T22:09:36.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Ventas\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Ventas\\Details.cshtml",
@@ -419,72 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Provincias\\Details.cshtml",
-              "RelativeDocumentMoniker": "Prolimza\\Views\\Provincias\\Details.cshtml",
-              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Provincias\\Details.cshtml",
-              "RelativeToolTip": "Prolimza\\Views\\Provincias\\Details.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T22:09:36.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Productos\\Details.cshtml",
-              "RelativeDocumentMoniker": "Prolimza\\Views\\Productos\\Details.cshtml",
-              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Productos\\Details.cshtml",
-              "RelativeToolTip": "Prolimza\\Views\\Productos\\Details.cshtml",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T22:07:24.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\MateriaRecetas\\Details.cshtml",
-              "RelativeDocumentMoniker": "Prolimza\\Views\\MateriaRecetas\\Details.cshtml",
-              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\MateriaRecetas\\Details.cshtml",
-              "RelativeToolTip": "Prolimza\\Views\\MateriaRecetas\\Details.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T22:05:15.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Roles\\Index.cshtml",
-              "RelativeDocumentMoniker": "Prolimza\\Views\\Roles\\Index.cshtml",
-              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Roles\\Index.cshtml",
-              "RelativeToolTip": "Prolimza\\Views\\Roles\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T20:55:40.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Prolimza\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Prolimza\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T00:36:51.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Home\\Index.cshtml",
@@ -497,397 +523,410 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Prolimza\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Producto.cs",
+              "RelativeToolTip": "Prolimza\\Models\\Producto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T23:49:01.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Recetas\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Recetas\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Recetas\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Recetas\\Details.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAIBJwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T22:13:07.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Usuarios\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Usuarios\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Usuarios\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Usuarios\\Details.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAIBJwCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T22:15:14.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Ventas\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Ventas\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Ventas\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Ventas\\Index.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAIBJwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:08:45.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\MateriaPrimas\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\MateriaPrimas\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\MateriaPrimas\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\MateriaPrimas\\Details.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAIBJwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T22:02:12.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Usuarios\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Usuarios\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Usuarios\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAADYAAABaAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAIBJwDYAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T20:53:31.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\MateriaPrimas\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\MateriaPrimas\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\MateriaPrimas\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\MateriaPrimas\\Index.cshtml",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAIBJwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:10:08.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\HistorialEstadoVentas\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\HistorialEstadoVentas\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\HistorialEstadoVentas\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\HistorialEstadoVentas\\Details.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAIBJwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:58:47.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Recetas\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Recetas\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Recetas\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Recetas\\Index.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAIBJwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T20:31:39.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\EstadoVentas\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\EstadoVentas\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\EstadoVentas\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\EstadoVentas\\Details.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:54:46.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Provincias\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Provincias\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Provincias\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Provincias\\Index.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAIBJwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:09:31.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Distritos\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Distritos\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Distritos\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Distritos\\Index.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAIBJwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:11:08.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Productos\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Productos\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Productos\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Productos\\Index.cshtml",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAIBJwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:09:46.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Distritos\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Distritos\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Distritos\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Distritos\\Details.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwBoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:46:04.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\MateriaRecetas\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\MateriaRecetas\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\MateriaRecetas\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\MateriaRecetas\\Index.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAIBJwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:09:57.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\DetalleVentas\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\DetalleVentas\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\DetalleVentas\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\DetalleVentas\\Index.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAIBJwCQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:11:18.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\DetalleVentas\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\DetalleVentas\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\DetalleVentas\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\DetalleVentas\\Details.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBJwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:42:21.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\DetalleCompraProductos\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\DetalleCompraProductos\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\DetalleCompraProductos\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\DetalleCompraProductos\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAIBJwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:11:28.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\HistorialEstadoVentas\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\HistorialEstadoVentas\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\HistorialEstadoVentas\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\HistorialEstadoVentas\\Index.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAIBJwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:10:46.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\DetalleCompraProductos\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\DetalleCompraProductos\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\DetalleCompraProductos\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\DetalleCompraProductos\\Details.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:39:02.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\EstadoVentas\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\EstadoVentas\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\EstadoVentas\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\EstadoVentas\\Index.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAIBJwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:10:59.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\DetalleCompraMateriaPrimas\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\DetalleCompraMateriaPrimas\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\DetalleCompraMateriaPrimas\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\DetalleCompraMateriaPrimas\\Index.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAIBJwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:11:49.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\DetalleCompraMateriaPrimas\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\DetalleCompraMateriaPrimas\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\DetalleCompraMateriaPrimas\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\DetalleCompraMateriaPrimas\\Details.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:36:39.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Compras\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Compras\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Compras\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Compras\\Index.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACQAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAIBJwCQAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:12:03.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Compras\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Compras\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Compras\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Compras\\Details.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAB4AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAIBJwB4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:34:34.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Cantones\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Cantones\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Cantones\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Cantones\\Index.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACQAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAIBJwCQAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:12:10.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Cantones\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Cantones\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Cantones\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Cantones\\Details.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAAB4AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAIBJwB4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:31:32.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Bodegas\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Bodegas\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Bodegas\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Bodegas\\Index.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBJwCwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:12:19.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Bodegas\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Bodegas\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Bodegas\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Bodegas\\Details.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACQAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAIBJwCQAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:28:05.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Auditorias\\Index.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Auditorias\\Index.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Auditorias\\Index.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Auditorias\\Index.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAIBJwCQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:12:33.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Auditorias\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Auditorias\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Auditorias\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Auditorias\\Details.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAACoAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAIBJwCoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:23:05.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Auditorias\\Delete.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Auditorias\\Delete.cshtml",
@@ -900,20 +939,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Roles\\Details.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Roles\\Details.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Roles\\Details.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Roles\\Details.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAB8AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAIBJwB8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-19T21:02:13.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Roles\\Edit.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Roles\\Edit.cshtml",
@@ -926,20 +965,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\ApplicationDbContext.cs",
               "RelativeToolTip": "Prolimza\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAABRwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T01:16:52.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "Receta.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Receta.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\Receta.cs",
@@ -952,7 +991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "DetalleVenta.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\DetalleVenta.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\DetalleVenta.cs",
@@ -965,20 +1004,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "RecetasController.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Controllers\\RecetasController.cs",
               "RelativeDocumentMoniker": "Prolimza\\Controllers\\RecetasController.cs",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Controllers\\RecetasController.cs",
               "RelativeToolTip": "Prolimza\\Controllers\\RecetasController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAABRwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T01:50:26.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "Bodega.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Bodega.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\Bodega.cs",
@@ -991,20 +1030,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Prolimza\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACMAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAIBJwCMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-28T01:13:52.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "RolesController.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Controllers\\RolesController.cs",
               "RelativeDocumentMoniker": "Prolimza\\Controllers\\RolesController.cs",
@@ -1017,7 +1056,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "HistorialEstadoVenta.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\HistorialEstadoVenta.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\HistorialEstadoVenta.cs",
@@ -1030,7 +1069,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "Compra.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Compra.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\Compra.cs",
@@ -1043,7 +1082,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "Canton.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Canton.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\Canton.cs",
@@ -1056,20 +1095,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "Auditoria.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Auditoria.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\Auditoria.cs",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Auditoria.cs",
               "RelativeToolTip": "Prolimza\\Models\\Auditoria.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T20:01:14.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "Rol.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Rol.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\Rol.cs",
@@ -1082,7 +1121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "Provincia.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Provincia.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\Provincia.cs",
@@ -1095,20 +1134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "Prolimza\\Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Producto.cs",
-              "RelativeToolTip": "Prolimza\\Models\\Producto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T23:49:01.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "MateriaReceta.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\MateriaReceta.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\MateriaReceta.cs",
@@ -1121,20 +1147,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "MateriaPrima.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\MateriaPrima.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\MateriaPrima.cs",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\MateriaPrima.cs",
               "RelativeToolTip": "Prolimza\\Models\\MateriaPrima.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T20:04:29.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "EstadoVenta.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\EstadoVenta.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\EstadoVenta.cs",
@@ -1147,7 +1173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "Distrito.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Distrito.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\Distrito.cs",
@@ -1160,7 +1186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "DetalleCompraProducto.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\DetalleCompraProducto.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\DetalleCompraProducto.cs",
@@ -1173,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "DetalleCompraMateriaPrima.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\DetalleCompraMateriaPrima.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\DetalleCompraMateriaPrima.cs",
@@ -1186,20 +1212,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "Venta.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Venta.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\Venta.cs",
               "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Venta.cs",
               "RelativeToolTip": "Prolimza\\Models\\Venta.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T01:36:52.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\Usuario.cs",
@@ -1212,7 +1238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Prolimza\\Models\\ErrorViewModel.cs",
@@ -1225,7 +1251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "Prolimza\\Views\\Auth\\Login.cshtml",
@@ -1233,23 +1259,12 @@
               "RelativeToolTip": "Prolimza\\Views\\Auth\\Login.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAUwAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T00:47:29.347Z"
+              "WhenOpened": "2025-04-09T00:47:29.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Program.cs",
-              "RelativeDocumentMoniker": "Prolimza\\Program.cs",
-              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Program.cs",
-              "RelativeToolTip": "Prolimza\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:13:41.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Prolimza\\Controllers\\AuthController.cs",
@@ -1257,11 +1272,12 @@
               "RelativeToolTip": "Prolimza\\Controllers\\AuthController.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAIwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T00:37:46.307Z"
+              "WhenOpened": "2025-04-09T00:37:46.307Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "PasswordHelper.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Helpers\\PasswordHelper.cs",
               "RelativeDocumentMoniker": "Prolimza\\Helpers\\PasswordHelper.cs",
@@ -1269,11 +1285,12 @@
               "RelativeToolTip": "Prolimza\\Helpers\\PasswordHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T00:34:42.836Z"
+              "WhenOpened": "2025-04-09T00:34:42.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Prolimza\\Controllers\\UsuariosController.cs",
@@ -1281,23 +1298,12 @@
               "RelativeToolTip": "Prolimza\\Controllers\\UsuariosController.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAIwEUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:51:55.352Z"
+              "WhenOpened": "2025-03-28T01:51:55.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 70,
-              "Title": "Prolimza.csproj",
-              "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Prolimza.csproj",
-              "RelativeDocumentMoniker": "Prolimza\\Prolimza.csproj",
-              "ToolTip": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Prolimza.csproj",
-              "RelativeToolTip": "Prolimza\\Prolimza.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-09T00:32:03.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
               "Title": "PasswordValidator.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Helpers\\PasswordValidator.cs",
               "RelativeDocumentMoniker": "Prolimza\\Helpers\\PasswordValidator.cs",
@@ -1305,11 +1311,12 @@
               "RelativeToolTip": "Prolimza\\Helpers\\PasswordValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T00:44:31.398Z"
+              "WhenOpened": "2025-04-09T00:44:31.398Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "AuditoriasController.cs",
               "DocumentMoniker": "C:\\Users\\danii\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\Controllers\\AuditoriasController.cs",
               "RelativeDocumentMoniker": "Prolimza\\Controllers\\AuditoriasController.cs",
@@ -1317,7 +1324,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\AuditoriasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:09:51.932Z"
+              "WhenOpened": "2025-03-28T01:09:51.932Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1329,7 +1337,8 @@
               "RelativeToolTip": "Prolimza\\Views\\Usuarios\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T00:04:23.245Z"
+              "WhenOpened": "2025-04-09T00:04:23.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1341,7 +1350,8 @@
               "RelativeToolTip": "Prolimza\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-28T01:13:39.73Z"
+              "WhenOpened": "2025-03-28T01:13:39.73Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1353,7 +1363,8 @@
               "RelativeToolTip": "Prolimza\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-08T23:35:36.344Z"
+              "WhenOpened": "2025-04-08T23:35:36.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1365,7 +1376,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\DistritosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:44:54.715Z"
+              "WhenOpened": "2025-03-28T01:44:54.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1377,7 +1389,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\VentasController.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAuwBcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:52:27.515Z"
+              "WhenOpened": "2025-03-28T01:52:27.515Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1389,7 +1402,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\MateriaRecetasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:48:24.305Z"
+              "WhenOpened": "2025-03-28T01:48:24.305Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1401,7 +1415,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\ProductosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:48:57.891Z"
+              "WhenOpened": "2025-03-28T01:48:57.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1413,7 +1428,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\ProvinciasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:49:52.747Z"
+              "WhenOpened": "2025-03-28T01:49:52.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1425,7 +1441,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\MateriaPrimasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:47:38.344Z"
+              "WhenOpened": "2025-03-28T01:47:38.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1437,7 +1454,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\HistorialEstadoVentasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:46:31.67Z"
+              "WhenOpened": "2025-03-28T01:46:31.67Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1449,7 +1467,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\EstadoVentasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:45:54.987Z"
+              "WhenOpened": "2025-03-28T01:45:54.987Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1461,7 +1480,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\DetalleVentasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:44:05.005Z"
+              "WhenOpened": "2025-03-28T01:44:05.005Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1473,7 +1493,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\DetalleCompraProductosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:43:31.216Z"
+              "WhenOpened": "2025-03-28T01:43:31.216Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1485,7 +1506,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\DetalleCompraMateriaPrimasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:42:26.191Z"
+              "WhenOpened": "2025-03-28T01:42:26.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1497,7 +1519,8 @@
               "RelativeToolTip": "Prolimza\\Views\\Auditorias\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T01:41:36.858Z"
+              "WhenOpened": "2025-03-28T01:41:36.858Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1509,7 +1532,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\ComprasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:41:32.765Z"
+              "WhenOpened": "2025-03-28T01:41:32.765Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1521,7 +1545,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\CantonesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:39:54.024Z"
+              "WhenOpened": "2025-03-28T01:39:54.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1533,7 +1558,8 @@
               "RelativeToolTip": "Prolimza\\Controllers\\BodegasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:21:17.016Z"
+              "WhenOpened": "2025-03-28T01:21:17.016Z",
+              "EditorCaption": ""
             }
           ]
         },

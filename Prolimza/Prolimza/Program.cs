@@ -55,4 +55,33 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+app.MapGet("/api/productos", async (ApplicationDbContext db) =>
+{
+    var productos = await db.Productos
+        .Select(p => new
+        {         
+            p.NombreProducto
+
+        })
+        .ToListAsync();
+
+    return Results.Ok(productos);
+});
+
+app.MapGet("/api/productos/{id:int}", async (int id, ApplicationDbContext db) =>
+{
+    var producto = await db.Productos
+        .Where(p => p.IdProducto == id)
+        .Select(p => new
+        {
+            p.NombreProducto,
+            p.Descripcion,
+            p.Cantidad
+        })
+        .FirstOrDefaultAsync();
+
+    return producto is not null ? Results.Ok(producto) : Results.NotFound();
+});
+
+
 app.Run();
