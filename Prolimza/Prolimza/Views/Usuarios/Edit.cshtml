@@ -4,44 +4,116 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<head>
+    <style>
+        .form {
+            background-color: #34974d !important;
+            display: block;
+            padding: 1rem;
+            max-width: 350px;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            margin: auto;
+        }
 
-<h4>Usuario</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="IdUsuario" />
-            <div class="form-group">
-                <label asp-for="Nombre" class="control-label"></label>
-                <input asp-for="Nombre" class="form-control" />
-                <span asp-validation-for="Nombre" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Correo" class="control-label"></label>
-                <input asp-for="Correo" class="form-control" />
-                <span asp-validation-for="Correo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ContrasenaEncriptada" class="control-label"></label>
-                <input asp-for="ContrasenaEncriptada" class="form-control" />
-                <span asp-validation-for="ContrasenaEncriptada" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="IdRol" class="control-label"></label>
-                <select asp-for="IdRol" class="form-control" asp-items="ViewBag.IdRol"></select>
-                <span asp-validation-for="IdRol" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+        .form-title {
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            font-weight: 600;
+            text-align: center;
+            color: #000;
+        }
+
+        .input-container {
+            position: relative;
+        }
+
+            .input-container input,
+            .form button {
+                outline: none;
+                border: 1px solid #e5e7eb;
+                margin: 8px 0;
+            }
+
+            .input-container input {
+                background-color: #fff;
+                padding: 1rem;
+                padding-right: 3rem;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                width: 300px;
+                border-radius: 0.5rem;
+                box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            }
+
+        .submit {
+            display: block;
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+            padding-left: 1.25rem;
+            padding-right: 1.25rem;
+            background-color: #325935;
+            color: #ffffff;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            font-weight: 500;
+            width: 100%;
+            border-radius: 0.5rem;
+            text-transform: uppercase;
+            border: none;
+        }
+
+        .signup-link {
+            color: #97BF7A;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            text-align: center;
+        }
+
+            .signup-link a {
+                text-decoration: underline;
+            }
+
+        .text-danger {
+            font-size: 0.75rem;
+            color: red;
+        }
+    </style>
+</head>
+
+<h1 class="text-center mb-4">Editar Usuario</h1>
+
+<div class="form mt-5">
+    <p class="form-title">Editar datos del usuario</p>
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="IdUsuario" />
+
+    <div class="input-container">
+        <input asp-for="Nombre" placeholder="Nombre del usuario" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+    <div class="input-container">
+        <input asp-for="Correo" placeholder="Correo del usuario" />
+        <span asp-validation-for="Correo" class="text-danger"></span>
+    </div>
+
+    <div class="input-container">
+        <input asp-for="ContrasenaEncriptada" placeholder="Contraseña" />
+        <span asp-validation-for="ContrasenaEncriptada" class="text-danger"></span>
+    </div>
+
+    <div class="input-container">
+        <select asp-for="IdRol" class="form-control" asp-items="ViewBag.IdRol"></select>
+        <span asp-validation-for="IdRol" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="submit">Guardar</button>
+
+    <p class="signup-link">
+        <a asp-action="Index">← Volver a la lista</a>
+    </p>
 </div>
 
 @section Scripts {
