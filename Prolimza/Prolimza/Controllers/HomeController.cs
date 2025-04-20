@@ -15,8 +15,20 @@ namespace Prolimza.Controllers
 
         public IActionResult Index()
         {
+            /* Verifica si hay sesión activa
+           if (HttpContext.Session.GetInt32("UsuarioId") == null)
+            {
+                // Redirige al login si no hay sesión
+                return RedirectToAction("Login", "Auth");
+            }
+
+            // Si hay sesión, puede mostrar el home normal
+            ViewBag.NombreUsuario = HttpContext.Session.GetString("UsuarioNombre");
+            ViewBag.Rol = HttpContext.Session.GetString("RolNombre");*/
+
             return View();
         }
+
 
         public IActionResult Privacy()
         {

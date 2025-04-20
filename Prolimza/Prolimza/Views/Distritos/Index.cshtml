@@ -6,9 +6,12 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+@if (!User.IsInRole("Lector"))
+{
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Crear nuevo</a>
+    </p>
+}
 <table class="table">
     <thead>
         <tr>
@@ -31,9 +34,12 @@
                 @Html.DisplayFor(modelItem => item.Canton.IdCanton)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdDistrito">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdDistrito">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdDistrito">Delete</a>
+                <a asp-action="Details" asp-route-id="@item.IdDistrito">Detalles</a> 
+                    @if (!User.IsInRole("Lector"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.IdDistrito">Editar</a>
+                        <a asp-action="Delete" asp-route-id="@item.IdDistrito">Eliminar</a>
+                    }
             </td>
         </tr>
 }

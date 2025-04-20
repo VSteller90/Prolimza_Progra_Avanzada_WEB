@@ -6,9 +6,12 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+@if (!User.IsInRole("Lector"))
+{
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Crear nuevo</a>
+    </p>
+}
 <table class="table">
     <thead>
         <tr>
@@ -19,15 +22,18 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdEstadoVenta">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdEstadoVenta">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdEstadoVenta">Delete</a>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.IdEstadoVenta">Detalles</a> 
+                    @if (!User.IsInRole("Lector"))
+                    { 
+                    <a asp-action="Delete" asp-route-id="@item.IdEstadoVenta">Eliminar</a>
+                        <a asp-action="Edit" asp-route-id="@item.IdEstadoVenta">Editar</a>
+                    }
             </td>
         </tr>
 }
