@@ -47,7 +47,7 @@ namespace Prolimza.Controllers
         // GET: Productos/Create
         public IActionResult Create()
         {
-            ViewData["IdBodega"] = new SelectList(_context.Bodegas, "IdBodega", "IdBodega");
+            ViewData["IdBodega"] = new SelectList(_context.Bodegas, "IdBodega", "Nombre");
             return View();
         }
 
