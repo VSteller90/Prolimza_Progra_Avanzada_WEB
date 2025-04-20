@@ -1,9 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Prolimza.Models;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
 
 namespace Prolimza.Models
 {
@@ -52,8 +48,25 @@ namespace Prolimza.Models
             modelBuilder.Entity<DetalleCompraProducto>().HasKey(dcp => new { dcp.IdCompra, dcp.IdProducto });
             modelBuilder.Entity<DetalleCompraMateriaPrima>().HasKey(dcm => new { dcm.IdCompra, dcm.IdMateriaPrima });
             modelBuilder.Entity<DetalleVenta>().HasKey(dv => new { dv.IdVenta, dv.IdProducto });
-            
-            modelBuilder.Entity<Venta>().ToTable("venta"); // Asegura el nombre correcto
+
+            modelBuilder.Entity<Venta>().ToTable("venta");
+            modelBuilder.Entity<Compra>().ToTable("compra");
+            modelBuilder.Entity<EstadoVenta>().ToTable("estadoVenta");
+            modelBuilder.Entity<HistorialEstadoVenta>().ToTable("historialEstadoVenta");
+            modelBuilder.Entity<Usuario>().ToTable("usuario");
+            modelBuilder.Entity<Producto>().ToTable("producto");
+            modelBuilder.Entity<Bodega>().ToTable("bodega");
+            modelBuilder.Entity<Canton>().ToTable("canton");
+            modelBuilder.Entity<Provincia>().ToTable("provincia");
+            modelBuilder.Entity<Distrito>().ToTable("distrito");
+            modelBuilder.Entity<MateriaPrima>().ToTable("materiaPrima");
+            modelBuilder.Entity<Auditoria>().ToTable("auditoria");
+            modelBuilder.Entity<Rol>().ToTable("roles");
+            modelBuilder.Entity<Receta>().ToTable("receta");
+            modelBuilder.Entity<MateriaReceta>().ToTable("materiaReceta");
+            modelBuilder.Entity<DetalleCompraProducto>().ToTable("detalleCompraProducto");
+            modelBuilder.Entity<DetalleCompraMateriaPrima>().ToTable("detalleCompraMateriaPrima");
+            modelBuilder.Entity<DetalleVenta>().ToTable("detalleVenta");
 
             modelBuilder.Entity<Canton>()
                 .HasOne(c => c.Provincia)
@@ -94,6 +107,20 @@ namespace Prolimza.Models
                 .HasOne(a => a.MateriaPrima)
                 .WithMany()
                 .HasForeignKey(a => a.IdMateriaPrima);
+
+            // Relación Receta -> Producto
+            modelBuilder.Entity<Receta>()
+                .HasOne(r => r.Producto)
+                .WithMany(p => p.Recetas)
+                .HasForeignKey(r => r.IdProducto)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            // Relación Receta -> MateriasReceta
+            modelBuilder.Entity<Receta>()
+                .HasMany(r => r.MateriasReceta)
+                .WithOne(mr => mr.Receta)
+                .HasForeignKey(mr => mr.IdReceta)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }
