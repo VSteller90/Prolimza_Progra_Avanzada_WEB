@@ -827,6 +827,9 @@ C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\b
 C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Prolimza.staticwebassets.runtime.json
 C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Prolimza.staticwebassets.endpoints.json
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -840,6 +843,11 @@ C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\b
 C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Humanizer.dll
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+>>>>>>> Stashed changes
 =======
 C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
 C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
@@ -891,6 +899,10 @@ C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\b
 C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Microsoft.OpenApi.dll
+>>>>>>> Stashed changes
 =======
 C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Microsoft.OpenApi.dll
 >>>>>>> Stashed changes
@@ -1096,6 +1108,10 @@ C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\o
 C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\obj\Debug\net8.0\Prolimza.csproj.CoreCompileInputs.cache
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\obj\Debug\net8.0\Prolimza.MvcApplicationPartsAssemblyInfo.cs
+>>>>>>> Stashed changes
 =======
 C:\Users\vse10\Documents\GitHub\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\obj\Debug\net8.0\Prolimza.MvcApplicationPartsAssemblyInfo.cs
 >>>>>>> Stashed changes

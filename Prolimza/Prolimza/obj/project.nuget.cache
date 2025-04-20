@@ -2,7 +2,11 @@
   "version": 2,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "dgSpecHash": "cZMJBav+dy4=",
+=======
+  "dgSpecHash": "odltLt9RUtw=",
+>>>>>>> Stashed changes
 =======
   "dgSpecHash": "odltLt9RUtw=",
 >>>>>>> Stashed changes
@@ -66,6 +70,11 @@
     "C:\\Users\\vse10\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    "C:\\Users\\vse10\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.4\\microsoft.aspnet.identity.core.2.2.4.nupkg.sha512",
+    "C:\\Users\\vse10\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+>>>>>>> Stashed changes
 =======
     "C:\\Users\\vse10\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.4\\microsoft.aspnet.identity.core.2.2.4.nupkg.sha512",
     "C:\\Users\\vse10\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
@@ -124,6 +133,10 @@
     "C:\\Users\\vse10\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    "C:\\Users\\vse10\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+>>>>>>> Stashed changes
 =======
     "C:\\Users\\vse10\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
 >>>>>>> Stashed changes
