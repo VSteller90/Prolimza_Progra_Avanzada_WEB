@@ -4,6 +4,6 @@ namespace Prolimza.Models
     {
         public int IdProvincia { get; set; }
         public string Nombre { get; set; }
-        public ICollection<Canton> Cantones { get; set; }
+        public ICollection<Canton>? Cantones { get; set; }
     }
 }

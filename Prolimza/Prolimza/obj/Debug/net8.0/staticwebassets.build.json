@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "Hash": "EovdKE5VRUTcVhwghTrZe/4rymxBHat3fY9TM1HVZ+g=",
+=======
+  "Hash": "bTU8NmuKGICFX35UsfvAo5sMjCwUJ5LheTuxhu/srXU=",
+>>>>>>> Stashed changes
   "Source": "Prolimza",
   "BasePath": "_content/Prolimza",
   "Mode": "Default",
@@ -1321,7 +1325,11 @@
   ],
   "Endpoints": [
     {
+<<<<<<< Updated upstream
       "Route": "css/site.c2tiyv64ts.css",
+=======
+      "Route": "css/site.7e6tgtpdkl.css",
+>>>>>>> Stashed changes
       "AssetFile": "C:\\Users\\vse10\\Documents\\GitHub\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1343,7 +1351,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Fri, 28 Mar 2025 02:18:24 GMT"
+=======
+          "Value": "Sun, 20 Apr 2025 23:05:35 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -1388,7 +1400,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Fri, 28 Mar 2025 02:18:24 GMT"
+=======
+          "Value": "Sun, 20 Apr 2025 23:05:35 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
