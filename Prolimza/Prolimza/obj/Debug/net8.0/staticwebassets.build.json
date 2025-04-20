@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CCe6Ew1u0pNrl0B2yZG1xQld4zG69YjDbRH8aGmF7dA=",
+  "Hash": "Q/2pVKWduWt0Ra14C9JN8FzKBYaRemT1Vfs+AbqRMes=",
   "Source": "Prolimza",
   "BasePath": "_content/Prolimza",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "7e6tgtpdkl",
+      "Integrity": "nznteQTuPRkIfACEFmdAWAqYRU8d+X/70b9zQkDsiE8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1321,7 +1321,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
+      "Route": "css/site.7e6tgtpdkl.css",
       "AssetFile": "C:\\xampp\\htdocs\\Prolimza_Progra_Avanzada_WEB\\Prolimza\\Prolimza\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1331,7 +1331,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "368"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1339,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"nznteQTuPRkIfACEFmdAWAqYRU8d+X/70b9zQkDsiE8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 23:34:01 GMT"
+          "Value": "Sun, 20 Apr 2025 04:52:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,7 +1353,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "7e6tgtpdkl"
         },
         {
           "Name": "label",
@@ -1361,7 +1361,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-nznteQTuPRkIfACEFmdAWAqYRU8d+X/70b9zQkDsiE8="
         }
       ]
     },
@@ -1376,7 +1376,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "368"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1384,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"nznteQTuPRkIfACEFmdAWAqYRU8d+X/70b9zQkDsiE8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 23:34:01 GMT"
+          "Value": "Sun, 20 Apr 2025 04:52:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1398,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-nznteQTuPRkIfACEFmdAWAqYRU8d+X/70b9zQkDsiE8="
         }
       ]
     },
