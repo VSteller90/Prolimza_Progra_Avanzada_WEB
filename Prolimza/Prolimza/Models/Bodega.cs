@@ -7,9 +7,15 @@ namespace Prolimza.Models
         public string DetalleDireccion { get; set; }
         public int IdDistrito { get; set; }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         public Distrito Distrito { get; set; }
         public ICollection<MateriaPrima> MateriasPrimas { get; set; }
         public ICollection<Producto> Productos { get; set; }
+=======
+        public Distrito? Distrito { get; set; }
+        public ICollection<MateriaPrima>? MateriasPrimas { get; set; }
+        public ICollection<Producto>? Productos { get; set; }
+>>>>>>> Stashed changes
 =======
         public Distrito? Distrito { get; set; }
         public ICollection<MateriaPrima>? MateriasPrimas { get; set; }
