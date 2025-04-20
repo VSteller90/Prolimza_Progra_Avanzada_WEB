@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Prolimza.Helpers;
 using Prolimza.Models;
 
 namespace Prolimza.Controllers
@@ -60,10 +63,14 @@ namespace Prolimza.Controllers
         {
             if (ModelState.IsValid)
             {
+                // Aquí se hashea la contraseña antes de guardarla
+                usuario.ContrasenaEncriptada = PasswordHelper.HashPassword(usuario.ContrasenaEncriptada);
+
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             ViewData["IdRol"] = new SelectList(_context.Roles, "IdRol", "IdRol", usuario.IdRol);
             return View(usuario);
         }

@@ -10,7 +10,7 @@ namespace Prolimza.Models
         [ForeignKey("Usuario")]
 
         public int IdUsuario { get; set; }
-        public Usuario Usuario { get; set; }
+        public Usuario? Usuario { get; set; }
         public ICollection<DetalleVenta> DetallesVenta { get; set; }
     }
 }
