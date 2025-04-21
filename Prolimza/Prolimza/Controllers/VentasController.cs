@@ -45,7 +45,7 @@ namespace Prolimza.Controllers
         // GET: Ventas/Create
         public IActionResult Create()
         {
-            ViewData["IdVenta"] = new SelectList(_context.Ventas, "IdVenta", "IdVenta");
+            ViewData["IdUsuario"] = new SelectList(_context.Usuarios, "IdUsuario", "Nombre");
             return View();
         }
 
@@ -62,7 +62,7 @@ namespace Prolimza.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdVenta"] = new SelectList(_context.Ventas, "IdVenta", "IdVenta");
+            ViewData["IdUsuario"] = new SelectList(_context.Usuarios, "IdUsuario", "Nombre");
             return View(venta);
         }
 
@@ -79,7 +79,7 @@ namespace Prolimza.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdVenta"] = new SelectList(_context.Ventas, "IdVenta", "IdVenta");
+            ViewData["IdUsuario"] = new SelectList(_context.Usuarios, "IdUsuario", "Nombre");
             return View(venta);
         }
 
@@ -115,7 +115,7 @@ namespace Prolimza.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdVenta"] = new SelectList(_context.Ventas, "IdVenta", "IdVenta");
+            ViewData["IdUsuario"] = new SelectList(_context.Usuarios, "IdUsuario", "Nombre");
             return View(venta);
         }
 

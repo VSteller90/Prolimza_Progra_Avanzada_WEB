@@ -122,21 +122,7 @@
 <div class="container-center animate__animated animate__fadeIn">
     <h1 class="animate__animated animate__fadeInDown">📈 HISTORIAL DE ESTADOS</h1>
 
-    @if (!User.IsInRole("Lector"))
-    {
-        <div class="btn-wrapper">
-            <a asp-action="Create" class="button">
-                <span class="button__text">Agregar</span>
-                <span class="button__icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2"
-                         stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg">
-                        <line y2="19" y1="5" x2="12" x1="12"></line>
-                        <line y2="12" y1="12" x2="19" x1="5"></line>
-                    </svg>
-                </span>
-            </a>
-        </div>
-    }
+
 
     <table class="table table-hover table-bordered align-middle text-center custom-table animate__animated animate__fadeIn">
         <thead class="table-success">
@@ -144,7 +130,6 @@
                 <th>@Html.DisplayNameFor(model => model.IdVenta)</th>
                 <th>@Html.DisplayNameFor(model => model.IdEstadoVenta)</th>
                 <th>@Html.DisplayNameFor(model => model.FechaEstado)</th>
-                <th>Acciones</th>
             </tr>
         </thead>
         <tbody>
@@ -154,21 +139,7 @@
                     <td>@Html.DisplayFor(modelItem => item.IdVenta)</td>
                     <td>@Html.DisplayFor(modelItem => item.IdEstadoVenta)</td>
                     <td>@Html.DisplayFor(modelItem => item.FechaEstado)</td>
-                    <td>
-                        <div class="dropdown">
-                            <a class="btn btn-green dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Acciones
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-action="Details" asp-route-id="@item.IdHistorialEstadoVenta">Detalles</a></li>
-                                @if (!User.IsInRole("Lector"))
-                                {
-                                    <li><a class="dropdown-item" asp-action="Edit" asp-route-id="@item.IdHistorialEstadoVenta">Editar</a></li>
-                                    <li><a class="dropdown-item" asp-action="Delete" asp-route-id="@item.IdHistorialEstadoVenta">Eliminar</a></li>
-                                }
-                            </ul>
-                        </div>
-                    </td>
+
                 </tr>
             }
         </tbody>
