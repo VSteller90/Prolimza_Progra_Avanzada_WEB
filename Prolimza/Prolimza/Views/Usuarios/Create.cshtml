@@ -101,17 +101,15 @@
         <span asp-validation-for="ContrasenaEncriptada" class="text-danger"></span>
     </div>
 
-    <div class="input-container">
-        <select asp-for="IdRol" class="form-control" asp-items="ViewBag.IdRol">
-            <option value="">Seleccione un rol</option>
-        </select>
-    </div>
+    @* <div class="input-container"> *@
+    @*     <select asp-for="IdRol" class="form-control" asp-items="ViewBag.IdRol"> *@
+    @*         <option value="">Seleccione un rol</option> *@
+    @*     </select> *@
+    @* </div> *@
 
     <button type="submit" class="submit">Crear</button>
 
-    <p class="signup-link" style="color:#97BF7A !important">
-        <a asp-action="Index">← Volver a la lista</a>
-    </p>
+
 </form>
 
 

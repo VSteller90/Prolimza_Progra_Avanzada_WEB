@@ -21,87 +21,152 @@
 
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Prolimza</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+   
 
-        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-controller="Home" asp-action="Index">Prolimza</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
-
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                                    <ul class="navbar-nav flex-grow-1">
 
 
-        <nav class="navbar navbar-expand-lg" style="background-color:#5E8C5D !important;">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmiPiRye7T_qZ22a5KL8xuwTC1F6D4y_bjgA&s" style="height: 80px;" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <nav class="navbar navbar-expand-lg" style="background-color:#5E8C5D !important;">
+                                            <div class="container-fluid">
+                                                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmiPiRye7T_qZ22a5KL8xuwTC1F6D4y_bjgA&s" style="height: 80px;" />
+                                                </a>
+                                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                                                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                                    <span class="navbar-toggler-icon"></span>
+                                                </button>
+                                                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                        @if (User.Identity.IsAuthenticated)
-                        {
-                            if (rolUsuario == "Propietario" || rolUsuario == "Lector")
-                            {
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-controller="Home" asp-action="Index">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-controller="Roles" asp-action="Index">Roles</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-controller="Bodegas" asp-action="Index">Bodegas</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-controller="Recetas" asp-action="Index">Recetas</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-controller="Productos" asp-action="Index">Productos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
-                                </li>
-                            }
+                                                        @if (User.Identity.IsAuthenticated)
+                                                        {
+                                                            if (rolUsuario == "Propietario" || rolUsuario == "Lector")
+                                                            {
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link text-white" asp-controller="Home" asp-action="Index">
+                                                                        <i class="fas fa-home"></i> Inicio
+                                                                    </a>
+                                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-white" asp-controller="Auditorias" asp-action="Index">
+                                                        <i class="fas fa-user-tag"></i> Auditorias
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-white" asp-controller="Cantones" asp-action="Index">
+                                                        <i class="fas fa-user-tag"></i> Cantones
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-white" asp-controller="DetalleCompraMateriaPrimas" asp-action="Index">
+                                                        <i class="fas fa-user-tag"></i> DetalleCompraMateriaPrimas
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-white" asp-controller="DetalleCompraProductos" asp-action="Index">
+                                                        <i class="fas fa-user-tag"></i> DetalleCompraProductos
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-white" asp-controller="DetalleVentas" asp-action="Index">
+                                                        <i class="fas fa-user-tag"></i> DetalleVentas
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-white" asp-controller="Distritos" asp-action="Index">
+                                                        <i class="fas fa-user-tag"></i> Distritos
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-white" asp-controller="EstadoVentas" asp-action="Index">
+                                                        <i class="fas fa-user-tag"></i> EstadoVentas
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-white" asp-controller="HistorialEstadoVentas" asp-action="Index">
+                                                        <i class="fas fa-user-tag"></i> HistorialEstadoVentas
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-white" asp-controller="MateriaPrimas" asp-action="Index">
+                                                        <i class="fas fa-user-tag"></i> MateriaPrimas
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-white" asp-controller="MateriaRecetas" asp-action="Index">
+                                                        <i class="fas fa-user-tag"></i> MateriaRecetas
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-white" asp-controller="Provincias" asp-action="Index">
+                                                        <i class="fas fa-user-tag"></i> Provincias
+                                                    </a>
+                                                </li>
+                
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link text-white" asp-controller="Roles" asp-action="Index">
+                                                                        <i class="fas fa-user-tag"></i> Roles
+                                                                    </a>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link text-white" asp-controller="Bodegas" asp-action="Index">
+                                                                        <i class="fas fa-warehouse"></i> Bodegas
+                                                                    </a>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link text-white" asp-controller="Recetas" asp-action="Index">
+                                                                        <i class="fas fa-utensils"></i> Recetas
+                                                                    </a>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link text-white" asp-controller="Productos" asp-action="Index">
+                                                                        <i class="fas fa-box-open"></i> Productos
+                                                                    </a>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link text-white" asp-controller="Usuarios" asp-action="Index">
+                                                                        <i class="fas fa-users"></i> Usuarios
+                                                                    </a>
+                                                                </li>
+                                                            }
 
-                            if (rolUsuario == "Propietario" || rolUsuario == "Lector" || rolUsuario == "Funcionario")
-                            {
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-controller="Ventas" asp-action="Index">Ventas</a>
-                                </li>
-                            }
+                                                            if (rolUsuario == "Propietario" || rolUsuario == "Lector" || rolUsuario == "Funcionario")
+                                                            {
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link text-white" asp-controller="Ventas" asp-action="Index">
+                                                                        <i class="fas fa-cash-register"></i> Ventas
+                                                                    </a>
+                                                                </li>
+                                                            }
 
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                            </li>
-                        }
-                    </ul>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link text-white" asp-controller="Home" asp-action="Privacy">
+                                                                    <i class="fas fa-user-secret"></i> Privacidad
+                                                                </a>
+                                                            </li>
+                                                        }
+                                                    </ul>
 
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                        <div class="d-flex align-items-center">
-                            <span class="me-3">Hola, @nombreUsuario (@rolUsuario)</span>
-                            <a class="btn btn-outline-danger btn-sm" href="/Auth/Logout">Cerrar sesión</a>
-                        </div>
-                    }
-                    else
-                    {
-                        <div class="d-flex align-items-center">
-                            <a class="btn btn-outline-primary btn-sm" href="/Auth/Login">Iniciar sesión</a>
-                        </div>
-                        <div class="d-flex align-items-center">
-                            <a class="btn btn-outline-primary btn-sm" href="/Usuarios/Create">Crear Usuario</a>
-                        </div>
-                    }
-                </div>
-            </div>
-        </nav>
+                                                    @if (User.Identity.IsAuthenticated)
+                                                    {
+                                                        <div class="d-flex align-items-center">
+                                                            <span class="me-3">Hola, @nombreUsuario (@rolUsuario)</span>
+                                                            <a class="btn btn-outline-danger btn-sm" href="/Auth/Logout">Cerrar sesión</a>
+                                                        </div>
+                                                    }
+                                                    else
+                                                    {
+                                                        <div class="d-flex align-items-center">
+                                                            <a class="btn btn-outline-primary btn-sm" href="/Auth/Login">Iniciar sesión</a>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <a class="btn btn-outline-primary btn-sm" href="/Usuarios/Create">Crear Usuario</a>
+                                                        </div>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </nav>
     </header>
 
     <div class="container">
@@ -115,7 +180,7 @@
         © 2025 Prolimza Mdos S.A. - Todos los derechos reservados. - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
     </footer>
 
- 
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

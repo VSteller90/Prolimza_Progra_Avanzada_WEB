@@ -68,11 +68,11 @@ namespace Prolimza.Controllers
 
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Login", "Auth");
             }
 
             ViewData["IdRol"] = new SelectList(_context.Roles, "IdRol", "IdRol", usuario.IdRol);
-            return View(usuario);
+            return RedirectToAction("Login", "Auth");
         }
 
         // GET: Usuarios/Edit/5

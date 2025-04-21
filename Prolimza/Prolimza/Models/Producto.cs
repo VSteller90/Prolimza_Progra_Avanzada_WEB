@@ -9,8 +9,8 @@ namespace Prolimza.Models
         public int Cantidad { get; set; }
         public DateTime? FechaCaducidad { get; set; }
         public int IdBodega { get; set; }
-        public Bodega Bodega { get; set; }
+        public Bodega? Bodega { get; set; }
 
-        public ICollection<Receta> Recetas { get; set; } = new List<Receta>();
+        public ICollection<Receta>? Recetas { get; set; } = new List<Receta>();
     }
 }
