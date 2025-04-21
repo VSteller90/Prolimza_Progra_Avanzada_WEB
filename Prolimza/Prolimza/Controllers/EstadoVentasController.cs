@@ -45,6 +45,7 @@ namespace Prolimza.Controllers
         // GET: EstadoVentas/Create
         public IActionResult Create()
         {
+            ViewData["IdEstadoVenta"] = new SelectList(_context.EstadosVenta, "IdEstadoVenta", "Descripcion");
             return View();
         }
 
@@ -61,6 +62,7 @@ namespace Prolimza.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["IdEstadoVenta"] = new SelectList(_context.EstadosVenta, "IdEstadoVenta", "Descripcion");
             return View(estadoVenta);
         }
 
@@ -77,6 +79,7 @@ namespace Prolimza.Controllers
             {
                 return NotFound();
             }
+            ViewData["IdEstadoVenta"] = new SelectList(_context.EstadosVenta, "IdEstadoVenta", "Descripcion");
             return View(estadoVenta);
         }
 
@@ -112,6 +115,7 @@ namespace Prolimza.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["IdEstadoVenta"] = new SelectList(_context.EstadosVenta, "IdEstadoVenta", "Descripcion");
             return View(estadoVenta);
         }
 

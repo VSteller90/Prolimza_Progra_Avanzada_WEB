@@ -47,7 +47,7 @@ namespace Prolimza.Controllers
         // GET: Bodegas/Create
         public IActionResult Create()
         {
-            ViewData["IdDistrito"] = new SelectList(_context.Distritos, "IdDistrito", "IdDistrito");
+            ViewData["IdDistrito"] = new SelectList(_context.Distritos, "IdDistrito", "Nombre");
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace Prolimza.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdDistrito"] = new SelectList(_context.Distritos, "IdDistrito", "IdDistrito", bodega.IdDistrito);
+            ViewData["IdDistrito"] = new SelectList(_context.Distritos, "IdDistrito", "Nombre", bodega.IdDistrito);
             return View(bodega);
         }
 
@@ -81,7 +81,7 @@ namespace Prolimza.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdDistrito"] = new SelectList(_context.Distritos, "IdDistrito", "IdDistrito", bodega.IdDistrito);
+            ViewData["IdDistrito"] = new SelectList(_context.Distritos, "IdDistrito", "Nombre", bodega.IdDistrito);
             return View(bodega);
         }
 
@@ -117,7 +117,7 @@ namespace Prolimza.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdDistrito"] = new SelectList(_context.Distritos, "IdDistrito", "IdDistrito", bodega.IdDistrito);
+            ViewData["IdDistrito"] = new SelectList(_context.Distritos, "IdDistrito", "Nombre", bodega.IdDistrito);
             return View(bodega);
         }
 

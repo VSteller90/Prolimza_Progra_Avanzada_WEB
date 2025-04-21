@@ -123,19 +123,24 @@ namespace Prolimza.Models
                 .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<DetalleVenta>()
-    .HasOne(dv => dv.Venta)
-    .WithMany(v => v.DetallesVenta)
-    .HasForeignKey(dv => dv.IdVenta)
-    .OnDelete(DeleteBehavior.Cascade);
+                .HasOne(dv => dv.Venta)
+                .WithMany(v => v.DetallesVenta)
+                .HasForeignKey(dv => dv.IdVenta)
+                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<HistorialEstadoVenta>()
-    .HasOne(h => h.Venta)
-    .WithMany(v => v.HistorialesEstadoVenta)
-    .HasForeignKey(h => h.IdVenta);
+                .HasOne(h => h.Venta)
+                .WithMany(v => v.HistorialesEstadoVenta)
+                .HasForeignKey(h => h.IdVenta);
 
             modelBuilder.Entity<HistorialEstadoVenta>()
                 .HasOne(h => h.EstadoVenta)
                 .WithMany(e => e.HistorialesEstadoVenta)
+                .HasForeignKey(h => h.IdEstadoVenta);
+
+            modelBuilder.Entity<EstadoVenta>()
+                .HasMany(e => e.HistorialesEstadoVenta)
+                .WithOne(h => h.EstadoVenta)
                 .HasForeignKey(h => h.IdEstadoVenta);
 
 

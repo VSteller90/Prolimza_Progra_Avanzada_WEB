@@ -50,7 +50,7 @@ namespace Prolimza.Controllers
         // GET: Usuarios/Create
         public IActionResult Create()
         {
-            ViewData["IdRol"] = new SelectList(_context.Roles, "IdRol", "IdRol");
+            ViewData["IdRol"] = new SelectList(_context.Roles, "IdRol", "Nombre");
             return View();
         }
 
@@ -71,7 +71,7 @@ namespace Prolimza.Controllers
                 return RedirectToAction("Login", "Auth");
             }
 
-            ViewData["IdRol"] = new SelectList(_context.Roles, "IdRol", "IdRol", usuario.IdRol);
+            ViewData["IdRol"] = new SelectList(_context.Roles, "IdRol", "Nombre", usuario.IdRol);
             return RedirectToAction("Login", "Auth");
         }
 
@@ -88,7 +88,7 @@ namespace Prolimza.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdRol"] = new SelectList(_context.Roles, "IdRol", "IdRol", usuario.IdRol);
+            ViewData["IdRol"] = new SelectList(_context.Roles, "IdRol", "Nombre", usuario.IdRol);
             return View(usuario);
         }
 
@@ -124,7 +124,7 @@ namespace Prolimza.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdRol"] = new SelectList(_context.Roles, "IdRol", "IdRol", usuario.IdRol);
+            ViewData["IdRol"] = new SelectList(_context.Roles, "IdRol", "Nombre", usuario.IdRol);
             return View(usuario);
         }
 
