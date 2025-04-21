@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Prolimza")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3041dd0317c51df982988bb61d6b22c43075fb2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93351d6453b8ed96af1df370bc2dca0cc94fb067")]
 [assembly: System.Reflection.AssemblyProductAttribute("Prolimza")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Prolimza")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
