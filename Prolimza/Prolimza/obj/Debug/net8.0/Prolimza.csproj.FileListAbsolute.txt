@@ -816,3 +816,7 @@ C:\xampp\htdocs\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\obj\Debug\net8.0\
 C:\xampp\htdocs\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\obj\Debug\net8.0\Prolimza.pdb
 C:\xampp\htdocs\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\obj\Debug\net8.0\Prolimza.genruntimeconfig.cache
 C:\xampp\htdocs\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\obj\Debug\net8.0\ref\Prolimza.dll
+C:\xampp\htdocs\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\obj\Debug\net8.0\Prolimza.MvcApplicationPartsAssemblyInfo.cs
+C:\xampp\htdocs\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
+C:\xampp\htdocs\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\xampp\htdocs\Prolimza_Progra_Avanzada_WEB\Prolimza\Prolimza\bin\Debug\net8.0\Microsoft.OpenApi.dll
