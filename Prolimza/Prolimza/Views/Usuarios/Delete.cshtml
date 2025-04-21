@@ -15,79 +15,126 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             max-width: 600px;
             margin: auto;
+            text-align: center;
+            opacity: 0; /* Inicialmente invisible */
+            transition: opacity 1s ease; /* Transición de opacidad */
         }
+
+            /* Hacer la card visible al cargarse la página */
+            .card-custom.loaded {
+                opacity: 1; /* Se hace visible con la transición */
+            }
+
+            .card-custom:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            }
+
+            /* Título de la card */
+            .card-custom h1 {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+                color: #fff;
+            }
+
+            /* Estilo para los subtítulos */
+            .card-custom h3 {
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+                color: #e9e9e9;
+            }
+
+            /* Línea divisoria */
+            .card-custom hr {
+                border: 1px solid #555;
+                width: 50%;
+                margin: 1rem auto;
+            }
 
         /* Botón personalizado */
         .btn-delete {
-            width: 150px;
-            height: 50px;
+            width: 180px;
+            height: 55px;
             cursor: pointer;
             display: flex;
             align-items: center;
-            background: #e62222;
+            background: linear-gradient(145deg, #e62222, #d81b1b);
             border: none;
-            border-radius: 5px;
-            box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
             position: relative;
+            transition: all 0.3s ease;
+            justify-content: center;
+            margin-top: 2rem;
         }
 
-            .btn-delete, .btn-delete span {
-                transition: 200ms;
+            .btn-delete:hover {
+                background: #ff3636;
+                transform: translateY(-2px);
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
             }
 
-                .btn-delete .text {
-                    transform: translateX(35px);
-                    color: white;
-                    font-weight: bold;
-                }
+            /* Efecto del icono dentro del botón */
+            .btn-delete .text {
+                color: white;
+                font-weight: bold;
+                font-size: 1rem;
+                transition: transform 0.3s ease;
+            }
 
-                .btn-delete .icon {
-                    position: absolute;
-                    border-left: 1px solid #c41b1b;
-                    transform: translateX(110px);
-                    height: 40px;
-                    width: 40px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
+            .btn-delete .icon {
+                position: absolute;
+                border-left: 1px solid #c41b1b;
+                transform: translateX(110px);
+                height: 40px;
+                width: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 0.3s ease;
+            }
 
-                .btn-delete svg {
-                    width: 15px;
-                    fill: #eee;
-                }
+            .btn-delete svg {
+                width: 20px;
+                fill: #fff;
+                transition: transform 0.2s ease;
+            }
 
-                .btn-delete:hover {
-                    background: #ff3636;
-                }
+            .btn-delete:hover .text {
+                transform: translateX(-10px);
+                color: transparent;
+            }
 
-                    .btn-delete:hover .text {
-                        color: transparent;
-                    }
+            .btn-delete:hover .icon {
+                width: 55px;
+                border-left: none;
+                transform: translateX(0);
+            }
 
-                    .btn-delete:hover .icon {
-                        width: 150px;
-                        border-left: none;
-                        transform: translateX(0);
-                    }
+            .btn-delete:active .icon svg {
+                transform: scale(0.9);
+            }
 
-                .btn-delete:focus {
-                    outline: none;
-                }
+            .btn-delete:focus {
+                outline: none;
+            }
 
-                .btn-delete:active .icon svg {
-                    transform: scale(0.8);
-                }
-
+        /* Enlace para regresar a la lista */
         .back-link {
             color: white;
-            margin-left: 15px;
+            margin-top: 1rem;
+            font-size: 1rem;
             text-decoration: underline;
+            transition: color 0.3s ease;
         }
+
+            .back-link:hover {
+                color: #ffa500;
+            }
     </style>
 </head>
 
-<div class="card-custom mt-5">
+<div class="card-custom mt-5" id="deleteCard">
     <h1>Eliminar Usuario</h1>
 
     <h3>¿Estás seguro de que deseas eliminar este usuario?</h3>
@@ -133,3 +180,9 @@
     </form>
 </div>
 
+<script>
+    // Añadimos la clase 'loaded' al cargarse la página para que la tarjeta se desvanezca
+    window.onload = function() {
+        document.getElementById('deleteCard').classList.add('loaded');
+    };
+</script>

@@ -47,7 +47,7 @@ namespace Prolimza.Controllers
         // GET: Cantones/Create
         public IActionResult Create()
         {
-            ViewData["IdProvincia"] = new SelectList(_context.Provincias, "IdProvincia", "IdProvincia");
+            ViewData["IdProvincia"] = new SelectList(_context.Provincias, "IdProvincia", "Nombre");
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace Prolimza.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdProvincia"] = new SelectList(_context.Provincias, "IdProvincia", "IdProvincia", canton.IdProvincia);
+            ViewData["IdProvincia"] = new SelectList(_context.Provincias, "IdProvincia", "Nombre", canton.IdProvincia);
             return View(canton);
         }
 
@@ -81,7 +81,7 @@ namespace Prolimza.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdProvincia"] = new SelectList(_context.Provincias, "IdProvincia", "IdProvincia", canton.IdProvincia);
+            ViewData["IdProvincia"] = new SelectList(_context.Provincias, "IdProvincia", "Nombre", canton.IdProvincia);
             return View(canton);
         }
 
@@ -117,7 +117,7 @@ namespace Prolimza.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdProvincia"] = new SelectList(_context.Provincias, "IdProvincia", "IdProvincia", canton.IdProvincia);
+            ViewData["IdProvincia"] = new SelectList(_context.Provincias, "IdProvincia", "Nombre", canton.IdProvincia);
             return View(canton);
         }
 

@@ -45,8 +45,10 @@ namespace Prolimza.Controllers
         // GET: Recetas/Create
         public IActionResult Create()
         {
+            ViewData["IdProducto"] = new SelectList(_context.Productos, "IdProducto", "NombreProducto");
             return View();
         }
+
 
         // POST: Recetas/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.

@@ -47,7 +47,7 @@ namespace Prolimza.Controllers
         // GET: Distritos/Create
         public IActionResult Create()
         {
-            ViewData["IdCanton"] = new SelectList(_context.Cantones, "IdCanton", "IdCanton");
+            ViewData["IdCanton"] = new SelectList(_context.Cantones, "IdCanton", "Nombre");
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace Prolimza.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdCanton"] = new SelectList(_context.Cantones, "IdCanton", "IdCanton", distrito.IdCanton);
+            ViewData["IdCanton"] = new SelectList(_context.Cantones, "IdCanton", "Nombre", distrito.IdCanton);
             return View(distrito);
         }
 
@@ -81,7 +81,7 @@ namespace Prolimza.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdCanton"] = new SelectList(_context.Cantones, "IdCanton", "IdCanton", distrito.IdCanton);
+            ViewData["IdCanton"] = new SelectList(_context.Cantones, "IdCanton", "Nombre", distrito.IdCanton);
             return View(distrito);
         }
 
@@ -117,7 +117,7 @@ namespace Prolimza.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdCanton"] = new SelectList(_context.Cantones, "IdCanton", "IdCanton", distrito.IdCanton);
+            ViewData["IdCanton"] = new SelectList(_context.Cantones, "IdCanton", "Nombre", distrito.IdCanton);
             return View(distrito);
         }
 

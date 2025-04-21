@@ -12,5 +12,7 @@ namespace Prolimza.Models
         public int IdUsuario { get; set; }
         public Usuario? Usuario { get; set; }
         public ICollection<DetalleVenta>? DetallesVenta { get; set; }
+        public ICollection<HistorialEstadoVenta>? HistorialesEstadoVenta { get; set; }
+
     }
 }
