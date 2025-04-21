@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "Hash": "qRX79PVhhcE5Ok8tCdNOm+89H138vUFkkNORd3CH468=",
+=======
+  "Hash": "GCl7pkj61T1cCzOt/jbBRQ1dKX6vvY10fmUnC6YBiMw=",
+>>>>>>> Stashed changes
   "Source": "Prolimza",
   "BasePath": "_content/Prolimza",
   "Mode": "Default",
@@ -6263,7 +6267,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 15 Apr 2025 23:34:01 GMT"
+=======
+          "Value": "Mon, 21 Apr 2025 22:11:54 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6300,7 +6308,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 15 Apr 2025 23:34:01 GMT"
+=======
+          "Value": "Mon, 21 Apr 2025 22:11:54 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6345,7 +6357,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 15 Apr 2025 23:34:01 GMT"
+=======
+          "Value": "Mon, 21 Apr 2025 22:11:54 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6390,7 +6406,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 15 Apr 2025 23:34:01 GMT"
+=======
+          "Value": "Mon, 21 Apr 2025 22:11:54 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
