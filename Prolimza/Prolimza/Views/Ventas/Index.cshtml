@@ -140,6 +140,7 @@
     <table class="table table-hover table-bordered align-middle text-center custom-table animate__animated animate__fadeIn">
         <thead class="table-success">
             <tr>
+                <th>@Html.DisplayNameFor(model => model.IdVenta)</th>
                 <th>@Html.DisplayNameFor(model => model.FechaVenta)</th>
                 <th>@Html.DisplayNameFor(model => model.IdUsuario)</th>
                 <th>Acciones</th>
@@ -149,6 +150,7 @@
             @foreach (var item in Model)
             {
                 <tr>
+                    <td>@Html.DisplayFor(modelItem => item.IdVenta)</td>
                     <td>@Html.DisplayFor(modelItem => item.FechaVenta)</td>
                     <td>@Html.DisplayFor(modelItem => item.IdUsuario)</td>
                     <td>
