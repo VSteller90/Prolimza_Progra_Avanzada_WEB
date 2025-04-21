@@ -116,24 +116,47 @@
                 {
                     if (rolUsuario == "Propietario" || rolUsuario == "Lector")
                     {
-                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Index"><i class="fas fa-home"></i> Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" asp-controller="Cantones" asp-action="Index"><i class="fas fa-user-tag"></i> Cantones</a></li>
-                        <li class="nav-item"><a class="nav-link" asp-controller="Distritos" asp-action="Index"><i class="fas fa-user-tag"></i> Distritos</a></li>
-                        <li class="nav-item"><a class="nav-link" asp-controller="EstadoVentas" asp-action="Index"><i class="fas fa-user-tag"></i> EstadoVentas</a></li>
-                        <li class="nav-item"><a class="nav-link" asp-controller="Provincias" asp-action="Index"><i class="fas fa-user-tag"></i> Provincias</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">
+                                <i class="fas fa-home"></i> Inicio
+                            </a>
+                        </li>
+
+                        <!-- Dropdown Ubicaciones -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="ubicacionesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-map-marker-alt"></i> Ubicaciones
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="ubicacionesDropdown">
+                                <li><a class="dropdown-item" asp-controller="Cantones" asp-action="Index">Cantones</a></li>
+                                <li><a class="dropdown-item" asp-controller="Distritos" asp-action="Index">Distritos</a></li>
+                                <li><a class="dropdown-item" asp-controller="Provincias" asp-action="Index">Provincias</a></li>
+                            </ul>
+                        </li>
+
                         <li class="nav-item"><a class="nav-link" asp-controller="Roles" asp-action="Index"><i class="fas fa-user-tag"></i> Roles</a></li>
                         <li class="nav-item"><a class="nav-link" asp-controller="Bodegas" asp-action="Index"><i class="fas fa-warehouse"></i> Bodegas</a></li>
                         <li class="nav-item"><a class="nav-link" asp-controller="Recetas" asp-action="Index"><i class="fas fa-utensils"></i> Recetas</a></li>
                         <li class="nav-item"><a class="nav-link" asp-controller="Productos" asp-action="Index"><i class="fas fa-box-open"></i> Productos</a></li>
                         <li class="nav-item"><a class="nav-link" asp-controller="Usuarios" asp-action="Index"><i class="fas fa-users"></i> Usuarios</a></li>
-                        <li class="nav-item"><a class="nav-link" asp-controller="HistorialEstadoVentas" asp-action="Index"><i class="fas fa-users"></i> HistorialVentas</a></li>
-                        <li class="nav-item"><a class="nav-link" asp-controller="DetalleVentas" asp-action="Index"><i class="fas fa-users"></i> Detalle de Ventas</a></li>
 
+                        <!-- Dropdown Ventas -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="ventasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-cash-register"></i> Ventas
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="ventasDropdown">
+                                <li><a class="dropdown-item" asp-controller="EstadoVentas" asp-action="Index">EstadoVentas</a></li>
+                                <li><a class="dropdown-item" asp-controller="HistorialEstadoVentas" asp-action="Index">HistorialVentas</a></li>
+                                <li><a class="dropdown-item" asp-controller="DetalleVentas" asp-action="Index">Detalle de Ventas</a></li>
+                                <li class="nav-item"><a class="nav-link" asp-controller="Ventas" asp-action="Index"><i class="fas fa-cash-register"></i> Crear Ventas</a></li>
+                            </ul>
+                        </li>
                     }
 
-                    if (rolUsuario == "Propietario" || rolUsuario == "Lector" || rolUsuario == "Funcionario")
+                    if ( rolUsuario == "Funcionario")
                     {
-                        <li class="nav-item"><a class="nav-link" asp-controller="Ventas" asp-action="Index"><i class="fas fa-cash-register"></i> Ventas</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Ventas" asp-action="Index"><i class="fas fa-cash-register"></i> Ventas Funcionario</a></li>
                     }
                 }
             </ul>
@@ -160,6 +183,7 @@
             </main>
         </div>
     </div>
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
